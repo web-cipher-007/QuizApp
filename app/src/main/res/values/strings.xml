@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">QuizMania</string>
+    <string name="welcomeText">Welcome to</string>
+    <string name="enterName">Please Enter a Username:</string>
+    <string name="category">Please Choose a Category:</string>
+    <string name="software">Software &amp; Tech</string>
+</resources>

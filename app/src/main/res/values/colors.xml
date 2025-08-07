@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="startButtonColor">#7F00FF</color>
+    <!-- res/values/colors.xml -->
+        <!-- Primary Colors -->
+        <color name="primary_color">#1976D2</color>
+        <color name="primary_dark">#1565C0</color>
+        <color name="primary_light">#BBDEFB</color>
+
+        <!-- Accent Colors -->
+        <color name="accent_color">#FF5722</color>
+        <color name="accent_dark">#E64A19</color>
+        <color name="accent_light">#FFCCBC</color>
+
+        <!-- Background Colors -->
+        <color name="background_color">#F5F5F5</color>
+        <color name="card_background">#FFFFFF</color>
+
+        <!-- Text Colors -->
+        <color name="text_color">#212121</color>
+        <color name="text_secondary">#757575</color>
+
+        <!-- Option Colors -->
+        <color name="option_background">#FFFFFF</color>
+        <color name="selected_option_background">#E3F2FD</color>
+        <color name="pressed_option_background">#F5F5F5</color>
+
+        <!-- Border Colors -->
+        <color name="border_color">#E0E0E0</color>
+
+        <!-- Button Colors -->
+        <color name="disabled_button">#BDBDBD</color>
+
+        <!-- Status Colors -->
+        <color name="correct_green">#4CAF50</color>
+        <color name="wrong_red">#F44336</color>
+
+        <!-- Option Selection Colors -->
+        <color name="selected_option">#E3F2FD</color>
+        <color name="selected_text">#1976D2</color>
+
+        <!-- Material Design Colors (if needed) -->
+        <color name="colorPrimary">@color/primary_color</color>
+        <color name="colorPrimaryDark">@color/primary_dark</color>
+        <color name="colorAccent">@color/accent_color</color>
+
+</resources>
