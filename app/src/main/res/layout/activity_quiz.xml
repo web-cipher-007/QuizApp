@@ -55,8 +55,8 @@
 
     <ScrollView
         android:id="@+id/scroll_question"
-        android:layout_width="340dp"
-        android:layout_height="124dp"
+        android:layout_width="333dp"
+        android:layout_height="91dp"
         android:layout_marginTop="24dp"
         android:layout_marginBottom="16dp"
         app:layout_constraintBottom_toTopOf="@id/option1"
@@ -85,6 +85,23 @@
     <!-- Option 4 -->
 
     <!-- Submit Button -->
+
+    <TextView
+        android:id="@+id/option4"
+        android:layout_width="365dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="64dp"
+        android:clickable="true"
+        android:focusable="true"
+        android:padding="16dp"
+        android:text="D. Madrid"
+        android:textSize="16sp"
+        app:flow_horizontalGap="1dp"
+        app:flow_verticalGap="1dp"
+        app:layout_constraintBottom_toTopOf="@id/btn_submit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
     <TextView
         android:id="@+id/option1"
         android:layout_width="365dp"
@@ -95,6 +112,8 @@
         android:padding="16dp"
         android:text="A. Paris"
         android:textSize="16sp"
+        app:flow_horizontalGap="1dp"
+        app:flow_verticalGap="1dp"
         app:layout_constraintBottom_toTopOf="@id/option2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -102,13 +121,15 @@
     <TextView
         android:id="@+id/option2"
         android:layout_width="365dp"
-        android:layout_height="56dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="4dp"
         android:clickable="true"
         android:focusable="true"
         android:padding="16dp"
         android:text="B. London"
         android:textSize="16sp"
+        app:flow_horizontalGap="1dp"
+        app:flow_verticalGap="1dp"
         app:layout_constraintBottom_toTopOf="@id/option3"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
@@ -117,35 +138,22 @@
         android:id="@+id/option3"
         android:layout_width="365dp"
         android:layout_height="52dp"
-        android:layout_marginBottom="4dp"
+        android:layout_marginBottom="8dp"
         android:clickable="true"
         android:focusable="true"
         android:padding="16dp"
         android:text="C. Berlin"
         android:textSize="16sp"
+        app:flow_horizontalGap="1dp"
+        app:flow_verticalGap="1dp"
         app:layout_constraintBottom_toTopOf="@id/option4"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent" />
 
-    <TextView
-        android:id="@+id/option4"
-        android:layout_width="364dp"
-        android:layout_height="54dp"
-        android:layout_marginBottom="24dp"
-        android:clickable="true"
-        android:focusable="true"
-        android:padding="16dp"
-        android:text="D. Madrid"
-        android:textSize="16sp"
-        app:layout_constraintBottom_toTopOf="@id/btn_submit"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.466"
-        app:layout_constraintStart_toStartOf="parent" />
-
     <Button
         android:id="@+id/btn_submit"
-        android:layout_width="303dp"
-        android:layout_height="53dp"
+        android:layout_width="300dp"
+        android:layout_height="52dp"
         android:layout_marginBottom="92dp"
         android:enabled="false"
         android:text="Submit Answer"
