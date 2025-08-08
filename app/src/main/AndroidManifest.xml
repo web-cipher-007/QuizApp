@@ -15,23 +15,17 @@
             android:name=".utils.ActivityCategory3"
             android:exported="false" />
         <activity
-            android:name=".utils.category"
+            android:name=".MainActivity"
             android:exported="false" />
         <activity
             android:name=".ui.quizstart"
             android:exported="false" />
         <activity
-            android:name=".category"
-            android:exported="false" />
-        <activity
-            android:name=".ui.QuestionsActivity"
-            android:exported="false" />
-        <activity
             android:name=".MainActivity2"
             android:exported="false" />
         <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".ui.quizstart"
+            android:exported="false" />
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
