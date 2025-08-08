@@ -88,9 +88,10 @@
 
     <TextView
         android:id="@+id/option4"
-        android:layout_width="365dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="64dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="56dp"
+        android:layout_marginTop="4dp"
         android:clickable="true"
         android:focusable="true"
         android:padding="16dp"
@@ -100,12 +101,13 @@
         app:flow_verticalGap="1dp"
         app:layout_constraintBottom_toTopOf="@id/btn_submit"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent" />
 
     <TextView
         android:id="@+id/option1"
-        android:layout_width="365dp"
-        android:layout_height="52dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:clickable="true"
         android:focusable="true"
@@ -120,8 +122,8 @@
 
     <TextView
         android:id="@+id/option2"
-        android:layout_width="365dp"
-        android:layout_height="52dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
         android:layout_marginBottom="4dp"
         android:clickable="true"
         android:focusable="true"
@@ -136,9 +138,9 @@
 
     <TextView
         android:id="@+id/option3"
-        android:layout_width="365dp"
-        android:layout_height="52dp"
-        android:layout_marginBottom="8dp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
         android:clickable="true"
         android:focusable="true"
         android:padding="16dp"
