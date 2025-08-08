@@ -37,9 +37,9 @@
             android:id="@+id/gridLayout"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:alignmentMode="alignBounds"
             android:columnCount="2"
             android:padding="16dp"
-            android:alignmentMode="alignMargins"
             android:useDefaultMargins="true">
 
             <!-- 1. General Knowledge -->
@@ -187,12 +187,12 @@
                 android:id="@+id/Maths"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/maths"
@@ -222,12 +222,12 @@
                 android:id="@+id/Engg"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/engg"
@@ -257,12 +257,12 @@
                 android:id="@+id/CS"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/cs"
@@ -292,12 +292,12 @@
                 android:id="@+id/GP"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/gp"
@@ -327,12 +327,12 @@
                 android:id="@+id/Sports"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/sports"
@@ -362,12 +362,12 @@
                 android:id="@+id/Software"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/science"
@@ -396,12 +396,12 @@
                 android:id="@+id/History"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/history"
@@ -430,12 +430,12 @@
                 android:id="@+id/IQ"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
+                android:layout_columnWeight="1"
                 android:layout_margin="8dp"
                 android:clickable="true"
                 android:foreground="?attr/selectableItemBackground"
                 app:cardCornerRadius="16dp"
-                app:cardElevation="6dp"
-                android:layout_columnWeight="1">
+                app:cardElevation="6dp">
 
                 <LinearLayout
                     android:id="@+id/iq"
